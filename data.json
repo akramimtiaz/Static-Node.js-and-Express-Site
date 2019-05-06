@@ -1,49 +1,51 @@
 {
-    "projects" : [
-        {
-            "id" : 0,
-            "project_name" : "A Random Quote Generator",
-            "description"  : "Using JavaScript to display a randomly selected quote each time the user clicks a button.",
-            "technologies" : ["HTML", "CSS", "JavaScript"],
-            "live_link"    : "https://akramimtiaz.github.io/techdegree-project-1/",
-            "github_link"  : "https://github.com/akramimtiaz/techdegree-project-1",
-            "image_urls"   : ["../images/timg_project0.png", "../images/large_project0.png"]
-        },
-        {
-            "id" : 1,
-            "project_name" : "List Pagination and Filtering",
-            "description"  : "Using JavaScript to divide a long list into a series of \"pages\" to improve the user experience of a web page.",
-            "technologies" : ["HTML", "CSS", "JavaScript"],
-            "live_link"    : "https://akramimtiaz.github.io/techdegree-project-2/",
-            "github_link"  : "https://github.com/akramimtiaz/techdegree-project-2",
-            "image_urls"   : ["../images/timg_project1.png", "../images/large_project1.png"]
-        },
-        {
-            "id" : 2,
-            "project_name" : "Interactive Form",
-            "description"  : "Using JavaScript to enhance a form so that it’s engaging, interactive, and easy to use.",
-            "technologies" : ["HTML", "CSS", "JavaScript", "JQuery"],
-            "live_link"    : "https://akramimtiaz.github.io/techdegree-project-3/",
-            "github_link"  : "https://github.com/akramimtiaz/techdegree-project-3",
-            "image_urls"   : ["../images/timg_project2.png", "../images/large_project2.png"]
-        },
-        {
-            "id" : 3,
-            "project_name" : "OOP Game Show App",
-            "description"  : "Using JavaScript and Object-Oriented Programming to create a browser-based, word guessing game",
-            "technologies" : ["HTML", "CSS", "JavaScript"],
-            "live_link"    : "https://akramimtiaz.github.io/techdegree-project-4/",
-            "github_link"  : "https://github.com/akramimtiaz/techdegree-project-4",
-            "image_urls"   : ["../images/timg_project3.png", "../images/large_project3.png"]
-        },
-        {
-            "id" : 4,
-            "project_name" : "Public API Requests",
-            "description"  : "Using JavaScript to create an employee directory by communicating with a third-party API.",
-            "technologies" : ["HTML", "CSS", "JavaScript"],
-            "live_link"    : "https://akramimtiaz.github.io/techdegree-project-5/",
-            "github_link"  : "https://github.com/akramimtiaz/techdegree-project-5",
-            "image_urls"   : ["../images/timg_project4.png", "../images/large_project4.png"]
+    "data": 
+        {    "projects" : [
+                {
+                    "id" : 0,
+                    "project_name" : "A Random Quote Generator",
+                    "description"  : "Using JavaScript to display a randomly selected quote each time the user clicks a button.",
+                    "technologies" : ["HTML", "CSS", "JavaScript"],
+                    "live_link"    : "https://akramimtiaz.github.io/techdegree-project-1/",
+                    "github_link"  : "https://github.com/akramimtiaz/techdegree-project-1",
+                    "image_urls"   : ["../images/timg_project0.png", "../images/large_project0.png"]
+                },
+                {
+                    "id" : 1,
+                    "project_name" : "List Pagination and Filtering",
+                    "description"  : "Using JavaScript to divide a long list into a series of \"pages\" to improve the user experience of a web page.",
+                    "technologies" : ["HTML", "CSS", "JavaScript"],
+                    "live_link"    : "https://akramimtiaz.github.io/techdegree-project-2/",
+                    "github_link"  : "https://github.com/akramimtiaz/techdegree-project-2",
+                    "image_urls"   : ["../images/timg_project1.png", "../images/large_project1.png"]
+                },
+                {
+                    "id" : 2,
+                    "project_name" : "Interactive Form",
+                    "description"  : "Using JavaScript to enhance a form so that it’s engaging, interactive, and easy to use.",
+                    "technologies" : ["HTML", "CSS", "JavaScript", "JQuery"],
+                    "live_link"    : "https://akramimtiaz.github.io/techdegree-project-3/",
+                    "github_link"  : "https://github.com/akramimtiaz/techdegree-project-3",
+                    "image_urls"   : ["../images/timg_project2.png", "../images/large_project2.png"]
+                },
+                {
+                    "id" : 3,
+                    "project_name" : "OOP Game Show App",
+                    "description"  : "Using JavaScript and Object-Oriented Programming to create a browser-based, word guessing game",
+                    "technologies" : ["HTML", "CSS", "JavaScript"],
+                    "live_link"    : "https://akramimtiaz.github.io/techdegree-project-4/",
+                    "github_link"  : "https://github.com/akramimtiaz/techdegree-project-4",
+                    "image_urls"   : ["../images/timg_project3.png", "../images/large_project3.png"]
+                },
+                {
+                    "id" : 4,
+                    "project_name" : "Public API Requests",
+                    "description"  : "Using JavaScript to create an employee directory by communicating with a third-party API.",
+                    "technologies" : ["HTML", "CSS", "JavaScript"],
+                    "live_link"    : "https://akramimtiaz.github.io/techdegree-project-5/",
+                    "github_link"  : "https://github.com/akramimtiaz/techdegree-project-5",
+                    "image_urls"   : ["../images/timg_project4.png", "../images/large_project4.png"]
+                }
+            ]
         }
-    ]
 }
