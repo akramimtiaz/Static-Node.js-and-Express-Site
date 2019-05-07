@@ -6,6 +6,7 @@ html(class="no-js" lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700,800", rel="stylesheet")
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -14,16 +15,16 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='../static/images/profile_picture.png')
+            img#profile-picture(src='../static/images/profile_picture.png')
           .cell.auto
 
             h5 Akram Imtiaz
             
             p.text-light
               | I am a recent Computer Science graduate aiming to become a Full-Stack JavaScript developer. In order to achieve my goal I have enrolled 
-              | into the Team Treehouse Full-Stack JavaScript Techdegree to learn the tools and skills needed to work in the field.
+              | into the Team Treehouse Full-Stack JavaScript Techdegree to learn the tools and skills needed to work in the industry.
 
-            a(href='/about') Learn More →
+            a(id="learn", href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large

@@ -1,14 +1,7 @@
 
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Montserrat', serif;
 }
-
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
 
   h6{
     letter-spacing: 2.5px;
@@ -35,16 +28,25 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #ED9F31;
 }
 
 a{
   color: #333;
 }
 
+a#learn {
+  color: #AD7424;
+}
+
 a:hover{
   color: #111;
 }
+
+a#learn:hover {
+  color: #ED9F31;
+}
+
 
 .image{
   display: inline-block;
@@ -56,9 +58,18 @@ a:hover{
   line-height: 0;
 }
 
+#profile-picture {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border-bottom: 7px solid #FCFBF7;
+  line-height: 0;
+}
+
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #1D2D44;
   color: #fff;
   box-shadow: none !important;
 }
@@ -148,3 +159,4 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
