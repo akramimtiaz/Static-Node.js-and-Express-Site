@@ -4,21 +4,26 @@ const projects = data.projects;
 
 const app = express();
 
-console.log(projects.length);
-
+/*set the view engine to pug*/
 app.set('view engine', 'pug');
 
+/*static route to serve the static files located in the public folder */
 app.use('/static', express.static('public'));
 
+/*Index route (/) to render the "Home" page*/
 app.get('/', (req, res) => {
-
     res.render('index', { projects });
 });
 
+/*About route (/about) to render the "About" page*/
 app.get('/about', (req, res) => {
     res.render('about');
 });
 
+//maybe add a random project pull for typing /projects
+
+/*Dynamic Project routes (/project<id>) to render a customized version of 
+  the Pug project template to show off each project dependent on the supplied id*/
 app.get('/project:id', (req, res) => {
 
     const index = parseInt(req.params.id);
@@ -38,12 +43,14 @@ app.get('/project:id', (req, res) => {
     }
 });
 
+/*If no matching route exists*/
 app.use((req, res, next) => {
     const err = new Error('Page Not Found');
     err.status = 404;
     next(err);
 });
 
+/*Error handler*/
 app.use((err, req, res, next) => {
     console.log('No Page Found');
     res.locals.error = err;
@@ -51,6 +58,7 @@ app.use((err, req, res, next) => {
     res.render('error');
 });
 
+/*The port on which our App is running*/
 app.listen(3000, () => {
     console.log('app running on port 3000');
 });
