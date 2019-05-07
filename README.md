@@ -6,4 +6,5 @@
 - updated h1,h2,h3,h4,h5, p font to Montserrat
 - removed h5 capitalisation from style.css
 - updated botton:hover background color
-- udpated portfolio section 'learn more' link text color including on hover color aswell
+- udpated portfolio section 'learn more' link text color including on hover color
+- added customised styling for profile picture
