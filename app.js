@@ -39,7 +39,7 @@ app.get('/project:id', (req, res) => {
         };
         return res.render('project', data);
     }else{
-        res.redirect('error');
+        res.redirect('error'); //check on slack
     }
 });
 
