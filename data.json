@@ -1,6 +1,5 @@
 {
-    "data": 
-        {    "projects" : [
+    "projects" : [
                 {
                     "id" : 0,
                     "project_name" : "A Random Quote Generator",
@@ -8,7 +7,7 @@
                     "technologies" : ["HTML", "CSS", "JavaScript"],
                     "live_link"    : "https://akramimtiaz.github.io/techdegree-project-1/",
                     "github_link"  : "https://github.com/akramimtiaz/techdegree-project-1",
-                    "image_urls"   : ["../public/images/timg_project0.png", "../public/images/large_project0.png"]
+                    "image_urls"   : ["../static/images/timg_project0.png", "../static/images/large_project0.png"]
                 },
                 {
                     "id" : 1,
@@ -17,7 +16,7 @@
                     "technologies" : ["HTML", "CSS", "JavaScript"],
                     "live_link"    : "https://akramimtiaz.github.io/techdegree-project-2/",
                     "github_link"  : "https://github.com/akramimtiaz/techdegree-project-2",
-                    "image_urls"   : ["../public/images//timg_project1.png", "../public/images//large_project1.png"]
+                    "image_urls"   : ["../static/images/timg_project1.png", "../static/images/large_project1.png"]
                 },
                 {
                     "id" : 2,
@@ -26,7 +25,7 @@
                     "technologies" : ["HTML", "CSS", "JavaScript", "JQuery"],
                     "live_link"    : "https://akramimtiaz.github.io/techdegree-project-3/",
                     "github_link"  : "https://github.com/akramimtiaz/techdegree-project-3",
-                    "image_urls"   : ["../public/images//timg_project2.png", "../public/images//large_project2.png"]
+                    "image_urls"   : ["../static/images/timg_project2.png", "../static/images/large_project2.png"]
                 },
                 {
                     "id" : 3,
@@ -35,7 +34,7 @@
                     "technologies" : ["HTML", "CSS", "JavaScript"],
                     "live_link"    : "https://akramimtiaz.github.io/techdegree-project-4/",
                     "github_link"  : "https://github.com/akramimtiaz/techdegree-project-4",
-                    "image_urls"   : ["../public/images//timg_project3.png", "../public/images//large_project3.png"]
+                    "image_urls"   : ["../static/images/timg_project3.png", "../static/images/large_project3.png"]
                 },
                 {
                     "id" : 4,
@@ -44,8 +43,8 @@
                     "technologies" : ["HTML", "CSS", "JavaScript"],
                     "live_link"    : "https://akramimtiaz.github.io/techdegree-project-5/",
                     "github_link"  : "https://github.com/akramimtiaz/techdegree-project-5",
-                    "image_urls"   : ["../public/images//timg_project4.png", "../public/images//large_project4.png"]
+                    "image_urls"   : ["../static/images/timg_project4.png", "../static/images/large_project4.png"]
                 }
             ]
-        }
+        
 }
