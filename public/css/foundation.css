@@ -443,8 +443,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #FCFBF7;
-  font-family: "Montserrat", serif;
+  /* background: #FCFBF7;
+  font-family: "Montserrat", serif; */
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -4988,8 +4988,8 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border-bottom: solid 4px #1D2D44;
-  border-radius: 5px;
+  /* border-bottom: solid 4px #1D2D44;
+  border-radius: 5px; */
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0; }
  
@@ -5003,10 +5003,10 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   a.thumbnail image {
     box-shadow: none; }  */
 
-.thumbnail:hover {
+/* .thumbnail:hover {
   border-bottom: 7px solid #1D2D44;
   transition: .2s;
-}
+} */
 
 .title-bar {
   padding: 0.5rem;

@@ -1,0 +1,44 @@
+body {
+    background: #FCFBF7;
+    font-family: "Montserrat", serif;
+}
+
+.thumbnail {
+    border-bottom: solid 4px #1D2D44;
+    border-radius: 5px;
+}
+
+.thumbnail:hover {
+    border-bottom: 7px solid #1D2D44;
+    transition: .2s;
+  }
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Montserrat', serif;
+  }
+
+a#learn {
+    color: #AD7424;
+  }
+
+a#learn:hover {
+    color: #ED9F31;
+  }
+
+#profile-picture {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-bottom: 7px solid #FCFBF7;
+    line-height: 0;
+  }
+
+.portfolio-me{
+    padding: 20px;
+    background: #1D2D44;
+}
+
+.button:hover {
+    background-color: #ED9F31;
+}
