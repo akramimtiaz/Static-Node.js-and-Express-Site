@@ -20,8 +20,6 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-//maybe add a random project pull for typing /projects
-
 /*Dynamic Project routes (/project<id>) to render a customized version of 
   the Pug project template to show off each project dependent on the supplied id*/
 app.get('/project:id', (req, res) => {
@@ -39,7 +37,7 @@ app.get('/project:id', (req, res) => {
         };
         return res.render('project', data);
     }else{
-        res.redirect('error'); //check on slack
+        res.redirect('error'); 
     }
 });
 
@@ -52,7 +50,7 @@ app.use((req, res, next) => {
 
 /*Error handler*/
 app.use((err, req, res, next) => {
-    console.log(`${req.originalUrl} - ${err.status} - it appears this page was not found.`);
+    console.log(`${req.path} - ${err.status} - it appears this page was not found.`);
     res.locals.error = err;
     res.status(err.status);
     res.render('error');
