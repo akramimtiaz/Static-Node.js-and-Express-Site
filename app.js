@@ -52,7 +52,7 @@ app.use((req, res, next) => {
 
 /*Error handler*/
 app.use((err, req, res, next) => {
-    console.log('No Page Found');
+    console.log(`${req.originalUrl} - ${err.status} - it appears this page was not found.`);
     res.locals.error = err;
     res.status(err.status);
     res.render('error');
