@@ -1,6 +1,6 @@
 # techdegree-project-6
 
-To access a specified project, localhost:3000/project[id] e.g. localhost:3000/project0
+To access a specified project, localhost:3000/project[id] e.g. localhost:3000/project/1
 
 - updated <body> background color
 - updated portfolio section background color
