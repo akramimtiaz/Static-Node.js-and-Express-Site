@@ -22,10 +22,11 @@ app.get('/about', (req, res) => {
 
 /*Dynamic Project routes (/project<id>) to render a customized version of 
   the Pug project template to show off each project dependent on the supplied id*/
-app.get('/project:id', (req, res) => {
+app.get('/project/:id', (req, res) => {
 
-    const index = parseInt(req.params.id);
-    if(index >= 0 && index < projects.length){
+    let index = parseInt(req.params.id) ;
+    if(index >= 1 && index <= projects.length){
+        index--;
         const data = {
             id: projects[index].id,
             name: projects[index].project_name,
@@ -37,7 +38,7 @@ app.get('/project:id', (req, res) => {
         };
         return res.render('project', data);
     }else{
-        res.redirect('error'); 
+        res.redirect('http://localhost:3000/error'); 
     }
 });
 
