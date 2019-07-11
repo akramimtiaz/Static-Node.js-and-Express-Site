@@ -1,5 +1,7 @@
 # techdegree-project-6
 
+This project involves the delivery of a portfolio site to showcase the projects built thus far. This project aims to demonstrate competency working with Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project.
+
 To access a specified project, localhost:3000/project/[id] e.g. localhost:3000/project/1
 
 - updated <body> background color
